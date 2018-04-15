@@ -4,10 +4,10 @@
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.0.6",
   "main": "./index.js",
-  "repository": "git://github.com/zulacoin/bitcore-node-zula.git",
-  "homepage": "https://github.com/zulacoin/bitcore-node-zula",
+  "repository": "git://github.com/zuladev/bitcore-node-zula.git",
+  "homepage": "https://github.com/zuladev/bitcore-node-zula",
   "bugs": {
-    "url": "https://github.com/zulacoin/bitcore-node-zula/issues"
+    "url": "https://github.com/zuladev/bitcore-node-zula/issues"
   },
   "contributors": [
     {
@@ -44,8 +44,8 @@
   ],
   "dependencies": {
     "async": "^1.3.0",
-    "bitcoind-rpc-zula": "zulacoin/bitcoind-rpc-zula",
-    "bitcore-lib-zula": "zulacoin/bitcore-lib-zula",
+    "bitcoind-rpc-zula": "zuladev/bitcoind-rpc-zula",
+    "bitcore-lib-zula": "zuladev/bitcore-lib-zula",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
@@ -67,7 +67,7 @@
   },
   "devDependencies": {
     "benchmark": "1.0.0",
-    "bitcore-p2p-zula": "zulacoin/bitcore-lib-zula",
+    "bitcore-p2p-zula": "zuladev/bitcore-lib-zula",
     "chai": "^3.5.0",
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.3",

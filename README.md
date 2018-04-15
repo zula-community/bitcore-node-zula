@@ -1,7 +1,7 @@
 Bitcore Node Zula
 ============
 
-A Zula full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Zula Core v0.12.1.x](https://github.com/zulacoin/zula/tree/v0.12.1.x) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
+A Zula full node for building applications and services with Node.js. A node is extensible and can be configured to run additional services. At the minimum a node has an interface to [Zula Core v0.12.1.x](https://github.com/zuladev/zula/tree/v0.12.1.x) for more advanced address queries. Additional services can be enabled to make a node more useful such as exposing new APIs, running a block explorer and wallet service.
 
 ## Install
 
@@ -31,7 +31,7 @@ bitcore-node-zula start
 
 This will create a directory with configuration files for your node and install the necessary dependencies.
 
-Please note that [Zula Core v0.12.1.x](https://github.com/zulacoin/zula/tree/v0.12.1.x) will be downloaded automatically. Once completed the zulad binary should be placed into the &lt;zula-data-dir&gt; folder specified during node creation.
+Please note that [Zula Core v0.12.1.x](https://github.com/zuladev/zula/tree/v0.12.1.x) will be downloaded automatically. Once completed the zulad binary should be placed into the &lt;zula-data-dir&gt; folder specified during node creation.
 
 For more information about (and developing) services, please see the [Service Documentation](docs/services.md).
 
@@ -39,9 +39,9 @@ For more information about (and developing) services, please see the [Service Do
 
 There are several add-on services available to extend the functionality of Bitcore:
 
-- [Insight API](https://github.com/zulacoin/insight-api-zula/tree/master)
-- [Insight UI](https://github.com/zulacoin/insight-ui-zula/tree/master)
-- [Bitcore Wallet Service](https://github.com/zulacoin/bitcore-wallet-service/tree/master)
+- [Insight API](https://github.com/zuladev/insight-api-zula/tree/master)
+- [Insight UI](https://github.com/zuladev/insight-ui-zula/tree/master)
+- [Bitcore Wallet Service](https://github.com/zuladev/bitcore-wallet-service/tree/master)
 
 ## Documentation
 
